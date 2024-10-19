@@ -566,9 +566,7 @@ ul.row {
     position: relative;
 }
 
-.card-work:hover .card-title {
-    opacity: 1;
-}
+
 
 .card-work .card-title a {
     display: block;
@@ -583,6 +581,10 @@ ul.row {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.card-work:hover .card-title {
+    opacity: 1;
 }
 
 /* End Services */
