@@ -490,7 +490,7 @@ ul.row {
 
 /* Start Hero-Section */
 .section-hero {
-    background-size: 90rem;
+    background-size: 90rem auto;
 }
 
 .section-hero .section-title {
