@@ -228,6 +228,7 @@ template {
 
 }
 
+/* Start Global */
 *,
 *::after,
 *::before {
@@ -285,6 +286,9 @@ h6 {
     color: var(--color-primary);
 }
 
+/* End Global */
+
+/* Start Section */
 .section {
     padding: var(--section-padding);
 }
@@ -319,16 +323,25 @@ h6 {
     text-transform: var(--section-tagline-transform);
 }
 
+/* End Section */
+
+/* Start Container */
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* End Container */
+
+/* Start Footer */
 .footer {
     padding: var(--footer-padding);
 }
 
+/* End Footer */
+
+/* Start Navbar */
 .navbar-menu {
     float: right;
 }
@@ -340,4 +353,22 @@ h6 {
     text-align: center;
 }
 
-.nav .nav-item {}
+.nav .nav-item {
+    font-family: var(nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
+/* End Navbar */
